@@ -14,7 +14,7 @@ const Main = () => {
   return (
     <Container>
       <Intro>
-        A <strong>frontend engineer </strong>passionate about creating
+        A <strong>frontend engineer </strong> passionate about creating
         interactive websites and user friendly application experience
       </Intro>
     </Container>
