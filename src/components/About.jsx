@@ -10,6 +10,8 @@ const Title = styled.h1`
   text-align: center;
   margin: 1.5rem 0;
   color: goldenrod;
+  font-size: 3rem;
+  font-weight: 500;
 `;
 const Content = styled.div`
   display: flex;
@@ -21,7 +23,9 @@ const Image = styled.img`
 `;
 const Info = styled.p`
   line-height: 1.6;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  text-indent: 2.5rem;
 `;
 const ImgContainer = styled.div`
   flex: 1;
@@ -31,6 +35,7 @@ const ImgContainer = styled.div`
 const InfoContainer = styled.div`
   flex: 1;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 3rem 3rem;
@@ -48,6 +53,8 @@ const About = () => {
             I am a Software Engineer focused on Frontend Development
             specializing in modern JavaScript stack with experience in the
             latest web technologies, including React, TypeScript, and Node.js.
+          </Info>
+          <Info>
             Always on the lookout for great software projects to contribute to,
             I love working on web applications that expand my knowledge about
             software development and work in an Agile fashion.

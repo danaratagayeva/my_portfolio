@@ -17,19 +17,22 @@ const Menu = styled.ul`
 `;
 
 const Item = styled.li`
-  margin-left: 1rem;
-  font-size: 1.2rem;
+  margin-left: 1.2rem;
+  padding-left: 0.8rem;
+  font-size: 1.5rem;
   cursor: pointer;
-  font-weight: 500;
+  font-weight: 400;
+  color: goldenrod;
 `;
 
 const Logo = styled.span`
   display: flex;
   align-items: center;
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: goldenrod;
   cursor: pointer;
 `;
+const Button = styled.button``;
 
 const Header = () => {
   return (
@@ -39,9 +42,11 @@ const Header = () => {
       </Logo>
       <div>
         <Menu>
-          <Item>About me</Item>
-          <Item>My Projects</Item>
-          <Item>Contact Me</Item>
+          <Item>About me |</Item>
+          <Item>My Projects |</Item>
+          <Item>Contact Me |</Item>
+          <Item>Projects |</Item>
+          <Item>Resume</Item>
         </Menu>
       </div>
     </Container>

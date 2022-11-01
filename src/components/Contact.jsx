@@ -17,6 +17,10 @@ const Text = styled.h1`
   flex: 1;
   justify-content: center;
   margin-left: 1rem;
+  color: goldenrod;
+  font-size: 4.5rem;
+  font-weight: 400;
+  padding: 3rem 2.5rem;
 `;
 
 const Form = styled.div`
@@ -33,12 +37,14 @@ const FormContainer = styled.div`
   // border: 1px solid black;
   display: flex;
   flex-direction: column;
-  padding: 1rem 1rem;
+  padding: 3rem 3rem;
 `;
 
 const Label = styled.h4`
   margin-bottom: 0.5rem;
-  font-size: 1.2rem; ;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: goldenrod;
 `;
 
 const Input = styled.input`
@@ -65,10 +71,10 @@ const Field = styled.textarea`
 const Button = styled.button`
   cursor: pointer;
   border: none;
-  background-color: darkgray;
+  background-color: goldenrod;
   border-radius: 0.2rem;
   padding: 0.5rem 1rem;
-  font-size: 1rem;
+  font-size: 1.5rem;
 `;
 
 const Contact = () => {
